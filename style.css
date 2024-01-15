@@ -5,17 +5,31 @@
     --primary-color: #FF5400;
     --secondary-color: #131318;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Mulish', sans-serif;
 }
-
-/* header design start here */ 
-
 .spacial-text {
     color: var(--primary-color); 
+}
+/* header design start here */ 
+header {
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list ul {
+    display: flex;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
 }
