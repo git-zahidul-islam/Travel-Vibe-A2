@@ -1,0 +1,21 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;600;800&display=swap');
+/* common code here */
+:root {
+    --primary-color: #FF5400;
+    --secondary-color: #131318;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* header design start here */ 
+
+.spacial-text {
+    color: var(--primary-color); 
+}
