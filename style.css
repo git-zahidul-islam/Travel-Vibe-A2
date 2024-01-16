@@ -163,6 +163,98 @@ main > div {
     margin-top: 30px;
 }
 
+/* choose-destination-container */
+.choose-destination-header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-destination-header-content .destination-title {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.choose-destination-header-content .destination-des {
+    width: 645px;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 45px;
+}
+/* choose destination container image gallery  */
+.travel-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.img-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+/* image gallery first row */
+.gallery-first-row {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-first-row > div {
+    width: 573px;
+    height: 300px;
+}
+.gallery-first-row .first-row-first-img{
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 5.png);
+    border-radius: 15px;
+}
+.gallery-first-row .first-row-second-img{
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 8.png);
+    border-radius: 15px;
+}
+/* image gallery second row */
+.gallery-second-row {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-second-row .second-row-first-img{
+    width: 374px;
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png);
+    border-radius: 15px;
+}
+.gallery-second-row .second-row-second-img{
+    width: 474px;
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 7.png);
+    border-radius: 15px;
+}
+.gallery-second-row .second-row-third-img{
+    width: 274px;
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 9.png);
+    border-radius: 15px;
+}
+/* image gallery third row */
+.gallery-third-row {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-third-row .third-row-first-img{
+    width: 473px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 11.png);
+    border-radius: 15px;
+}
+.gallery-third-row .third-row-second-img{
+    width: 673px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png);
+    border-radius: 15px;
+}
+
+
+
 /* Responsive Design starts Here */
 /* for Mobile device */
 @media screen and (max-width: 600px) {
