@@ -17,6 +17,7 @@
 .spacial-text {
     color: var(--primary-color); 
 }
+
 /* header design start here */ 
 header {
     max-width: 1170px;
@@ -110,15 +111,67 @@ ul li a {
 .submit-btn-container .submit-btn {
     margin-right: 10px;
 }
+/* main section design start Here */
+main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+main > div {
+    margin: 100px 0;
+}
 
 
-
+/* our popular tour section */
+.popular-tour-content h2 {
+    font-size: 40px;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+.popular-tour-content p {
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 25px;
+}
+.popular-tour-container {
+    display: flex;
+    gap: 45px;
+}
+.popular-tour-img {
+    width: 540px;
+    height: 500px;
+}
+.tour-point {
+    margin-left: 10px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.tour-point i {
+    font-size: 7px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.tour-point-list {
+    display: flex;
+    gap: 10px;
+}
+#popular-btn {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 30px;
+}
 
 /* Responsive Design starts Here */
-
 /* for Mobile device */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     /* head section */
+    header {
+        max-width: 335px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
     .banner-search {
         flex-direction: column;
     }
@@ -134,7 +187,7 @@ ul li a {
         font-weight: 800;
     }
     .head-banner {
-        width: 90%;
+        width: 335px;
         height: 483px;
         margin: 0 auto;
     }
@@ -163,10 +216,24 @@ ul li a {
         font-size: 15px;
         font-weight: 400;
     }
+    /* popular tour section */
+    .popular-tour-container {
+        width: 335px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .popular-tour-img {
+        width: 335px;
+        height: 342px;
+    }
+    .popular-tour-content {
+        width: 335px;
+        /* margin: 0 auto; */
+    }
 }
 
 /* medium device */
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 601px) and (max-width: 992px) {
     ul li a {
         color:#424247;
         font-size: 18px;
@@ -211,5 +278,11 @@ ul li a {
         background: #FFF;
         border: 0;
         padding: 0 15px;
+    }
+    /* popular tour section */
+    .popular-tour-container {
+        width: 95%;
+        flex-direction: column;
+        margin: 0 auto;
     }
 }
