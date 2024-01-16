@@ -421,6 +421,10 @@ main > div {
         margin: 0 auto;
     }
     /* choose destination container */
+    .choose-destination-container {
+        width: 95%;
+        margin: 0 auto;
+    }
     .choose-destination-header-content .destination-des{
         width: 500px;
     }
@@ -430,9 +434,25 @@ main > div {
     .gallery-first-row > div {
         width: 50%;
         /* width: 335px; */
-        height: 176px;
+        height: 200px;
     }
-    .gallery-first-row > div:first-child {
+    .gallery-first-row > div:first-child,
+    .gallery-third-row > div:first-child {
         margin-right: 10px;
+    }
+    .gallery-second-row .second-row-first-img,
+    .gallery-second-row .second-row-second-img,
+    .gallery-second-row .second-row-third-img {
+        width: 33.34%;
+        height: 200px;
+        margin-right: 10px;
+    }
+    .gallery-second-row .second-row-third-img {
+        margin-right: 0;
+    }
+    .gallery-third-row .third-row-first-img,
+    .gallery-third-row .third-row-second-img {
+        width: 50%;
+        height: 200px;
     }
 }
