@@ -403,8 +403,46 @@ label > input {
     font-weight: 800;
 }
 
-
-
+/* footer start here */
+footer {
+    max-width: 1440px;
+    height: 502px; 
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo .logo {
+    display: flex;
+}
+.footer-logo {
+    margin-bottom: 16px;
+}
+.footer-logo h3 {
+    font-size: 32px;
+}
+.footer-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container .footer-des {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.footer-icon i {
+    color: #131318;
+    margin-right: 10px;
+}
+.footer-hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+}
 
 
 /* Responsive Design starts Here */
@@ -603,6 +641,28 @@ label > input {
         font-size: 20px;
         margin-top: 5px;
     }
+    /* footer start */
+    .footer-container .footer-des {
+        width: 287px;
+        font-size: 14px;
+    }
+    footer {
+        width: 375px;
+        height: 309px;
+        margin: 0 auto;
+    }
+    .footer-logo h3 {
+        font-size: 21.2px;
+    }
+    .footer-logo img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .footer-hr {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 80%;
+    }
     
 }
 
@@ -732,5 +792,15 @@ label > input {
     #card2  {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    /* footer */
+    .footer-container .footer-des {
+        width: 487px;
+        font-size: 14px;
+    }
+    footer {
+        width: 580px;
+        /* max-width: 100%; */
+        margin: 0 auto;
     }
 }
