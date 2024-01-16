@@ -668,6 +668,9 @@ footer {
 
 /* medium device */
 @media screen and (min-width: 601px) and (max-width: 992px) {
+    nav {
+        padding: 0 20px;
+    }
     ul li a {
         color:#424247;
         font-size: 18px;
