@@ -373,6 +373,7 @@ label > input {
     font-weight: 800;
 }
 .news-latter-container .form-img {
+    position: relative;
     width: 672px;
     height: 422px;
     border-radius: 16px;
@@ -387,7 +388,7 @@ label > input {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     top: 272px;
     left: 355px;
     transform: rotate(-19.628deg);
@@ -516,6 +517,10 @@ label > input {
         flex-direction: column;
     }
     /* why-choose-section */
+    .why-choose-container {
+        margin-top: -80px;
+        margin-bottom: -50px;
+    }
     .why-choose-head .why-choose-title {
         font-size: 20px;
     }
@@ -538,6 +543,67 @@ label > input {
     .card-container1 .card{
         margin: 0 auto;
     }
+    #card2  {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /* news-latter-container */
+    .news-latter-container {
+        flex-direction: column;
+    }
+    .form-box {
+        width: 335px;
+        height: 353px;
+        padding: 20px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .news-latter-container .form-img {
+        width: 335px;
+        height: 353px;
+        margin: 0 auto;
+    }
+    .form-img .form-img-price-card {
+        top: 125px;
+        left: 12px;
+    }
+    .form-box .form-box-des {
+        width: 270px;
+        font-size: 14px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    label input {
+        width: 288px;
+    }
+    .form-box .form-box-title {
+        font-size: 20px;
+    }
+    .form-img .form-img-price-card {
+        width: 214px;
+        height: 79px;
+    }
+    .form-img-price-card .form-img-name {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .form-img-price-card .form-img-save-up {
+        font-size: 21px;
+        font-weight: 800;
+    }
+    .form-img .form-img-price-card {
+        top: 242px;
+        left: 117px;
+    }
+    label input {
+        width: 288px;
+        margin-bottom: 10px;
+    }
+    .form-box .form-box-title {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
 }
 
 /* medium device */
@@ -646,5 +712,25 @@ label > input {
         line-height: 24px;
         font-weight: 400;
         margin-bottom: 15px;
+    }
+    /* news-latter-container */
+    .news-latter-container {
+        flex-direction: column;
+    }
+    .form-box {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .news-latter-container .form-img {
+        width: 580px;
+        margin: 0 auto;
+    }
+    .form-img .form-img-price-card {
+        top: 272px;
+        left: 263px;
+    }
+    #card2  {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
