@@ -17,7 +17,11 @@
 .spacial-text {
     color: var(--primary-color); 
 }
-
+.hr-primary {
+    height: 1px;
+    border: none;
+    background: rgba(19, 19, 24, 0.10);
+}
 /* header design start here */ 
 header {
     max-width: 1170px;
@@ -319,6 +323,86 @@ main > div {
 .card .card-title {
     margin-bottom: 15px;
 }
+
+/* news latter container */
+.news-latter-container {
+    display: flex;
+    /* gap: 24px; */
+    justify-content: space-between;
+}
+.form-box {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+.form-box .form-box-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+.form-box .form-box-des {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 24px;
+}
+.hr-primary {
+    margin-bottom: 24px;
+}
+label input {
+    padding: 16px;
+    width: 393px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+}
+label > input {
+    margin-bottom: 16px;
+}
+.form-box-btn {
+    background-color: var(--primary-color);
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+.news-latter-container .form-img {
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    background: url(Images/Rectangle\ 8\ \(1\).png);
+}
+.form-img .form-img-price-card {
+    background-color: var(--primary-color);
+    width: 310px;
+    height: 100px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 272px;
+    left: 355px;
+    transform: rotate(-19.628deg);
+    color: #fff;
+}
+.form-img-price-card .form-img-name {
+    font-size: 24px;
+    font-weight: 400;
+}
+.form-img-price-card .form-img-save-up {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
 
 
 
