@@ -253,6 +253,73 @@ main > div {
     border-radius: 15px;
 }
 
+/* why-choose-container */
+.why-choose-container
+.why-choose-head {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.why-choose-title {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.why-choose-des {
+    width: 640px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+.card-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.card-container2 {
+    display: flex;
+    justify-content: center;
+}
+.card-container1 .card {
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+}
+#card1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+#card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#card3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.card-container2 .card {
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+}
+
+.card .card-img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 15px;
+}
+.card .card-title {
+    margin-bottom: 15px;
+}
+
 
 
 /* Responsive Design starts Here */
@@ -364,7 +431,29 @@ main > div {
     .gallery-third-row {
         flex-direction: column;
     }
-
+    /* why-choose-section */
+    .why-choose-head .why-choose-title {
+        font-size: 20px;
+    }
+    .why-choose-head .why-choose-des {
+        width: 300px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .card-container1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .card-container1 .card,
+    .card-container2 .card {
+        width: 335px;
+        height: 289px;
+    }
+    .card-container1 .card{
+        margin: 0 auto;
+    }
 }
 
 /* medium device */
@@ -414,11 +503,15 @@ main > div {
         border: 0;
         padding: 0 15px;
     }
+    header {
+        margin-bottom: 20px;
+    }
     /* popular tour section */
     .popular-tour-container {
         width: 95%;
         flex-direction: column;
         margin: 0 auto;
+        margin-bottom: 30px;
     }
     /* choose destination container */
     .choose-destination-container {
@@ -434,7 +527,7 @@ main > div {
     .gallery-first-row > div {
         width: 50%;
         /* width: 335px; */
-        height: 200px;
+        height: 200px; 
     }
     .gallery-first-row > div:first-child,
     .gallery-third-row > div:first-child {
@@ -454,5 +547,20 @@ main > div {
     .gallery-third-row .third-row-second-img {
         width: 50%;
         height: 200px;
+    }
+    /* why choose us */
+    .card-container1 {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .card-container1 .card {
+        margin: 0 auto;
+    }
+    .why-choose-head .why-choose-des {
+        width: 450px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
     }
 }
