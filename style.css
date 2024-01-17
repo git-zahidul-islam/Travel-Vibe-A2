@@ -332,6 +332,74 @@ main > div {
 .card .card-title {
     margin-bottom: 15px;
 }
+/* rating section */
+.rating-container {
+    background-color: #FEF5F5;
+    height: 350px;
+    border-left: 6px solid rgba(128, 128, 128, 0.584);
+    border-radius: 0 20px 20px 0;
+}
+.rating-content {
+    padding: 20px 40px;
+}
+.rating-content .rating-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #131318;
+    margin-top: 30px;
+}
+.rating-head .rating-total {
+    font-size: 20px;
+    font-weight: 800;
+}
+.rating-box-container {
+    display: flex;
+    justify-content: space-between;
+}
+.rating-box-container .rating-box {
+    width: 320px;
+    height: 150px;
+    background-color: #F4FDFF;
+    color: #424247;
+    padding: 15px;
+    border-radius: 15px 60px 60px 15px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    margin: 20px 0;
+}
+.rating-box .rating-box-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.rating-box .rating-btn {
+    width: 100px;
+    height: 35px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-top: 5px;
+}
+.rating-box .rating-box-des {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+small {
+    font-size: 12px;
+    color: gray;
+}
+.rating-container-btn {
+    color: var(--primary-color);
+    background-color: #fff;
+    border: 1px solid #ff5500de;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 120px;
+    padding: 10px;
+    font-weight: 700;
+    float: right;
+    cursor: pointer;
+}
 
 /* news latter container */
 .news-latter-container {
@@ -685,6 +753,24 @@ footer {
         margin-bottom: 10px;
         width: 50%;
     }
+    /* rating section */
+    .rating-container {
+        background-color: #FEF5F5;
+        height: 800px;
+        width: 335px;
+        margin: 0 auto;
+        margin-top: 90px;
+        margin-bottom: -60px;
+        border-left: none;
+    }
+    .rating-content .rating-head {
+        flex-direction: column;
+    }
+
+    .rating-box-container {
+        align-items: center;
+        flex-direction: column;
+    }
     
 }
 
@@ -834,5 +920,24 @@ footer {
     .footer-section {
         width: 580px;
         margin: 0 auto;
+    }
+    /* rating section */
+    .rating-container {
+        background-color: #FEF5F5;
+        height: 800px;
+        width: 455px;
+        margin: 0 auto;
+        margin-top: 90px;
+        margin-bottom: -60px;
+        border-left:  none;
+        border-right: 5px solid rgba(128, 128, 128, 0.584);
+    }
+    .rating-content .rating-head {
+        flex-direction: column;
+    }
+
+    .rating-box-container {
+        align-items: center;
+        flex-direction: column;
     }
 }
